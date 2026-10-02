@@ -49,7 +49,7 @@ I'm **Nour el Houda**, a full-stack developer based in **Hamilton, Canada** (ori
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nourhb&show_icons=true&theme=tokyonight&hide_border=true&count_private=false" alt="GitHub stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nourhb&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="170"/>
+  <img src="top-langs-repos.svg" alt="Top languages by repository count" height="170"/>
 </p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nourhb&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
