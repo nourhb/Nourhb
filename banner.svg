@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.9">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <!-- decorative code brackets -->
+  <text x="70" y="120" font-family="monospace" font-size="90" fill="#22d3ee" opacity="0.18">&lt;/&gt;</text>
+  <text x="1040" y="330" font-family="monospace" font-size="70" fill="#a78bfa" opacity="0.18">{ }</text>
+
+  <!-- decorative circles -->
+  <circle cx="1080" cy="70" r="46" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.5"/>
+  <circle cx="1080" cy="70" r="70" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="90" cy="330" r="34" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.5"/>
+  <circle cx="90" cy="330" r="52" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- greeting -->
+  <text x="600" y="120" text-anchor="middle" font-family="Verdana, sans-serif" font-size="34" fill="#94a3b8" letter-spacing="6">HELLO WORLD, I'M</text>
+
+  <!-- name -->
+  <text x="600" y="200" text-anchor="middle" font-family="Verdana, sans-serif" font-size="72" font-weight="bold" fill="url(#accent)">Nour el Houda Bouajila</text>
+
+  <!-- tagline -->
+  <text x="600" y="262" text-anchor="middle" font-family="Verdana, sans-serif" font-size="30" fill="#e2e8f0">Full-Stack Developer &#183; React &#183; Node.js &#183; WordPress &#183; Cloud</text>
+
+  <!-- divider -->
+  <rect x="480" y="296" width="240" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- location -->
+  <text x="600" y="340" text-anchor="middle" font-family="Verdana, sans-serif" font-size="24" fill="#94a3b8">Based in Hamilton, Canada &#183; Open to remote work</text>
+</svg>
